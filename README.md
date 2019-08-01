@@ -13,3 +13,8 @@
 - Navigate to page of choice and test out extension!
 
 # not final build, will be modified in the future to remove nsfw aspect
+
+- refactor from brute force method to generate clean code with good time and space complexities
+- goals will be to implement a different filter feature not requiring querying for nsfw words
+- utilize data from an API not requiring a key or oAuth
+- add option form to create more customization ability
