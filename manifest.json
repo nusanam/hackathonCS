@@ -1,8 +1,11 @@
 {
     "name": "See No Evil",
     "version": "1.0",
-    "description": "Detect when a page has bad words!",
+    "description": "Censor bad words with funny emojis; code designed to be customizable for future use. For example, inputting user choice for which word to replace with any element of choice.",
     "permissions": ["tabs", "activeTab", "declarativeContent", "storage"],
+    "author": {
+        "name": "Ruthba Anam && Mohtasim Chowdhury"
+    },
     "background": {
         "scripts": ["background.js"], 
         "persistent": false

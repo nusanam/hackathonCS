@@ -162,7 +162,7 @@ let elements5 = document.getElementsByTagName('*'); // stores all5 matching the 
 
 for (let indexRedWords5 = 0; indexRedWords5 < redWordsArray.length; indexRedWords5++) { // for loop to search through array of red words
 	for (let i = 0; i <redWordsArray.length; i++) { // 
-		for (let j = 0; j <elements5[i].childNodes.length; j++) { 
+		for (let j = 0; j < elements5[i].childNodes.length; j++) { 
 			let node5 = elements5[i].childNodes[j]; // now node4 represnts all the child node4s inside index i of element
 			if (node5.nodeType === 3) { // node4.node4Type is integer that identifies what the property is. The actual text inside an element or an attribute has a node4.node4Type value of 3. so if the node4 contains text...
 				// then assign that node4's node4Value to a variable so it can store the value of the text, which is a string
